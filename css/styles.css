@@ -1,0 +1,45 @@
+body{
+    background-color: #fff3b0;
+}
+.title {
+    font-family: "Luckiest Guy";
+}
+.hi{
+    text-align: right;
+    margin-right: 10px;
+}
+.heading1{
+    text-align: right;
+    color:#000000;
+    font-family: Courier, Courier new, Monospace;
+    font-size: 40px;
+}
+
+nav {
+    background-color: #ffc974;
+    width: 100%;
+    /* the nav bar should go all across the screen width: 100%; */
+    /* we want the nav bar to start right at the begin */
+    margin: 0px;
+}
+nav ul li {
+/* we want the list items beside each other, this  */
+display: inline-block;
+/* we don't need any bullets in our menu */
+list-style-type: none;
+}
+
+
+nav > ul > li > a {
+    color: #060000;
+    display: block;
+    padding: 35px;
+    text-decoration: none;
+}
+.Update{
+    text-align: right;
+}
+.hero{
+font-family: "Luckiest Guy";
+}
+.hero{
